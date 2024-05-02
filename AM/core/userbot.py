@@ -10,7 +10,7 @@ assistants = []
 assistantids = []
 
 
-class Userbot(Client):
+class Userbot(aj):
     def __init__(self):
         self.one = aj(
             api_id=config.API_ID,
