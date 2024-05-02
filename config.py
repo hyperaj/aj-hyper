@@ -7,26 +7,26 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID","12227067"))
-API_HASH = getenv("API_HASH","b463bedd791aa733ae2297e6520302fe")
+API_ID = int(getenv("API_ID","23017054"))
+API_HASH = getenv("API_HASH","4978a4886dfda8b752205fbb854b5f91")
 
-BOT_TOKEN = getenv("BOT_TOKEN","")
+BOT_TOKEN = getenv("BOT_TOKEN","6057396949:AAFqboh4svUOQP06RDORanI_zP5i6XTFEh0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ambot:ambot@ambot.onafiyb.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1001840241140"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Sophia Music")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://clve73lfu001ha4me1al6gw90:UTfT7DjJGjwyvbdXaM1hDrVj@104.251.218.202:9013/?readPreference=primary&ssl=false")
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002066328009"))
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Caty Lackhu")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "6204761408").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5598323486").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AbhiModszYT/AMMusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BARATH-XD/Serenamusic")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AmBotYT")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AM_YTSUPPORT")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TeamHyperNetworks")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/Team_Hypers_Networks")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -54,11 +54,11 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "50"))
 
 CLEANMODE_DELETE_MINS = int(getenv("CLEANMODE_MINS", "12"))
 
-TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
-TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
+TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "9242880000"))
+TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "9242880000"))
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQBme0iT0koFFHiOwjz0Brt1NlKB5in1cA2khPTo5PE3qymINQ9BQiLcCgzfOwX-FYSbU8mrgaI8_H4R8xwukCG8RZvYXUuhOvhDV1koOyOIL2RKyhFns5sVg7s27q7b8et19nYGuwiuYfpcGENkXlgM3MG9BVHDA5vjqnJ7z3JEXE9I9h8aUfzwTduCHOSmQx9d9cbPL_mzyO2dOBlswEjaPP3D5w1efTkj5CsJTyDl55u7NLYzTg6tD6jv29GtazmOiZxfCPZXNt5NRBTrQQikpSDk5DkyWEug0amxu6F74NmaidYWAhaoKBHs2vbrBngTTRplZ4AOpbERJx-H4uv8AAAAAXA8lMQA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
