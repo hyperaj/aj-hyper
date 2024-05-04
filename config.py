@@ -12,7 +12,9 @@ API_HASH = getenv("API_HASH","4978a4886dfda8b752205fbb854b5f91")
 
 BOT_TOKEN = getenv("BOT_TOKEN","6057396949:AAFqboh4svUOQP06RDORanI_zP5i6XTFEh0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb://clve73lfu001ha4me1al6gw90:UTfT7DjJGjwyvbdXaM1hDrVj@104.251.218.202:9013/?readPreference=primary&ssl=false")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Hypernetwork123:Hypernetwork123@cluster456.gbvjydm.mongodb.net/?retryWrites=true&w=majority")
+
+ithu use panniko")
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID","-1002066328009"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Caty Lackhu")
 
